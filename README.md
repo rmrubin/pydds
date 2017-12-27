@@ -1,2 +1,2 @@
 # pydds
-Python DDS Synthesis Module
+Python Direct Digital Synthesis (DDS) Module
