@@ -1,21 +1,28 @@
+#!/usr/bin/env python
+
+"""midi_notes.py: MIDI Note indexed frequency and name lists.
+"""
+
+__version__     = "0.2.2"
+__status__      = "Development"
+
+__author__      = "Randy Rubin"
+__copyright__   = "Copyright 2018, Randy Rubin"
+__license__     = "MIT"
 
 
-# returns a list of MIDI note frequencies
+# returns a list of 128 MIDI note frequencies
 
 def freqs():
-
     midi_note_freqs = []
-    
     for i in range(2**7):
         midi_note_freqs.append(2 ** ((i - 69) / 12) * 440.0)
-
     return midi_note_freqs
 
 
-# returns a list of MIDI note names 
+# returns a list of 128 MIDI note names 
 
 def names():
-
     midi_note_names = []
 
     midi_note_names.append("C-1")
@@ -158,5 +165,3 @@ def names():
     midi_note_names.append("G9")
 
     return midi_note_names
-
-
