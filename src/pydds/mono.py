@@ -1,17 +1,19 @@
+#!/usr/bin/env python
 
-"""DDS Module
-
-
+"""mono.py: PyDDS Monophonic ADSR Synthesis Module
 """
 
-__version__ = '0.2'
-__author__ = 'Randy Rubin'
-
-
-import pyaudio
+import time as tm
 import numpy as np
 import matplotlib.pyplot as plt
-import time as tm
+import pyaudio
+
+__version__     = "0.2.1"
+__status__      = "Development"
+
+__author__      = "Randy Rubin"
+__copyright__   = "Copyright 2018, Randy Rubin"
+__license__     = "MIT"
 
 
 class DDS:

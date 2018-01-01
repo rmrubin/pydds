@@ -1,7 +1,18 @@
+#!/usr/bin/env python
+
+"""midi_notes.py: MIDI Note indexed frequency and name lists.
+"""
 
 from pynput import keyboard as kb
 import midi_notes as mn
 import pydds.mono as pydds_module
+
+__version__     = "0.2.1"
+__status__      = "Development"
+
+__author__      = "Randy Rubin"
+__copyright__   = "Copyright 2018, Randy Rubin"
+__license__     = "MIT"
 
 
 # dds module functions
